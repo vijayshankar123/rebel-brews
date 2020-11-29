@@ -81,7 +81,7 @@ const Home = () => {
         }
         
              {loading?
-            <div style={{height:"80vh"}} className="center">
+            <div style={{height:"70vh"}} className="center">
             <ReactLoading type={"spin"} color={"green"} height={50} width={50} />
             </div>
             :
