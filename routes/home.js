@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router()
-router.get("/home",async(req,res)=>{
+router.get("/images",async(req,res)=>{
 const data = [
     {
     "image": "https://s3-ap-southeast-1.amazonaws.com/he-public-data/csm_01_02-2019_Beer_Brewing_53ef2818e58285158.png"
