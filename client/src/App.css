@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container_home {
+  margin-top: 100px;
+  padding: 30px;
+}
+
+* {
+  font-family: "Mansalva", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+}

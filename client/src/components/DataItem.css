@@ -1,0 +1,28 @@
+.card_item {
+  border-radius: 15px;
+  padding: 15px 15px 10px 15px;
+  width: 90%;
+  margin: 0 10px 40px 20px;
+  min-height: 210px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: -1px 4px 13px -6px rgba(0, 0, 0, 0.8);
+}
+
+.card_item:hover {
+  transition: transform 0.2s ease-in;
+  transform: scale(1.1);
+}
+img {
+  margin-left: 5px;
+  height: 62px;
+  width: 52px;
+}
+
+.MuiPaginationItem-page.Mui-selected {
+  background-color: rgb(96 59 59 / 44%) !important;
+}
+
+button {
+  outline: none !important;
+}

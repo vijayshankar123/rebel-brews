@@ -1,0 +1,35 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_wrapper {
+  display: flex;
+
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.search_inp > input {
+  border: none;
+  width: 100%;
+  margin-left: 5px;
+  outline: none;
+}
+
+.search_inp {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 400px;
+  height: 40px;
+  border: 1px solid #c8abab;
+  border-radius: 58px;
+}
+
+.items_display {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  justify-content: center;
+}
