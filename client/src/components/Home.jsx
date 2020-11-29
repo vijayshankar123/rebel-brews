@@ -26,7 +26,7 @@ const Home = () => {
           const data = await axios.get("https://s3-ap-southeast-1.amazonaws.com/he-public-data/beercraft5bac38c.json") 
           const imageData = await axios.get("/images")        
            
-           for(let i=0;i<data.data.length;i+=5){
+           for(let i=0;i<itemsPerPage/imageData.data.length;i++){
                for(let j=0;j<imageData.data.length;j++){
                    finalImageData.push(imageData.data[j])
                }
